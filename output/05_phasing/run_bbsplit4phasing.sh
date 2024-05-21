@@ -1,0 +1,2 @@
+#!/bin/bash
+bbsplit.sh ambiguous=all ambiguous2=all threads=8 ref_Pert=../03_sequence_lists/samples_consensus/Perityle_californica_76_positas_intronerated_consensus.fasta ref_laph=../03_sequence_lists/samples_consensus/Perityle_lobata_119_mesa_tinajas_intronerated_consensus.fasta in=../S3_1_tp.fq.gz in2=../S3_2_tp.fq.gz basename=../05_phasing/Perityle_incana_3_ucla_to_%.fastq refstats=../05_phasing/Perityle_incana_3_ucla_phasing-stats.txt
