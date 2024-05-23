@@ -1,0 +1,36 @@
+alignment = "strict_supercontigs_phased"
+# read in the alignments
+filenames = v("data/aligned_5841_supercontig_clean.nexus", 
+"data/aligned_6779_supercontig_clean.nexus", 
+"data/aligned_7128_supercontig_clean.nexus")
+# Get the tree
+observed_phylogeny = readTrees("data/Marina_singles_timetree.tree")[1]
+
+# read the data
+n_data_subsets = filenames.size()
+for (i in 1:n_data_subsets) {
+    data[i] = readDiscreteCharacterData(filenames[i])
+}
+
+# get the taxa in the tree
+taxa = observed_phylogeny.taxa()
+
+# get the names of taxa on the tree
+for(i in 1:taxa.size()) {
+    taxa_names[i] = taxa[i].getName()
+}
+
+# first, exclude all taxa
+for(i in 1:n_data_subsets) {
+    data[i].excludeTaxa(data[i].taxa())
+}
+
+# now, include taxa in the tree
+for(i in 1:n_data_subsets) {
+    data[i].includeTaxa(taxa_names)
+}
+
+# make sure we include missing data (add taxa that are missing in the alignment but appear in the tree)
+for(i in 1:n_data_subsets) {
+    data[i].addMissingTaxa(taxa_names)
+}

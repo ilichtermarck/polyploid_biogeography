@@ -1,0 +1,461 @@
+IQ-TREE 2.3.3 COVID-edition built Apr 25 2024
+
+Input file name: astrict_data/At5g15610_supercontig.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 449660
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 84 sequences with 2252 nucleotide sites
+Number of constant sites: 985 (= 43.7389% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 985 (= 43.7389% of all sites)
+Number of parsimony informative sites: 757
+Number of distinct site patterns: 1525
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F
+
+Rate parameter R:
+
+  A-C: 0.7947
+  A-G: 2.1564
+  A-T: 0.8014
+  C-G: 0.9677
+  C-T: 2.4921
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2846
+  pi(C) = 0.1791
+  pi(G) = 0.1737
+  pi(T) = 0.3626
+
+Rate matrix Q:
+
+  A    -0.833    0.1468    0.3865    0.2997
+  C    0.2333    -1.339    0.1734    0.9321
+  G     0.633    0.1787    -1.186     0.374
+  T    0.2352    0.4603    0.1792   -0.8748
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -18923.5024 (s.e. 398.6249)
+Unconstrained log-likelihood (without tree): -15559.7867
+Number of free parameters (#branches + #model parameters): 173
+Akaike information criterion (AIC) score: 38193.0047
+Corrected Akaike information criterion (AICc) score: 38221.9768
+Bayesian information criterion (BIC) score: 39182.4910
+
+Total tree length (sum of branch lengths): 4.4713
+Sum of internal branch lengths: 1.2224 (27.3378% of tree length)
+
+WARNING: 14 near-zero internal branches (<0.0004) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Amauria_brandeegeana_62' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Amauria_brandeegeana_62
+|
+|                                    +--Amauria_carterae_99_mesa
+|                                 +--| (47)
+|                                 |  |  +----Amauria_rotundifolia_SRR9119150
+|                                 |  +--| (54)
+|                                 |     +--Eutetras_pringlei_149_quer
+|                              +--| (47)
+|                              |  |           +---Pericome_caudata_50_silver
+|                              |  |        +--| (89)
+|                              |  |        |  |    +--Perityle_rosei_74
+|                              |  |        |  +----| (100)
+|                              |  |        |       +--Perityle_trichodonta_bolanos_208
+|                              |  |     +--| (36)
+|                              |  |     |  |        +--Perityle_batopilensis_97
+|                              |  |     |  |     +--| (100)
+|                              |  |     |  |     |  +--Perityle_gentryi_8_san_francisco
+|                              |  |     |  |  +--| (98)
+|                              |  |     |  |  |  |  +**Perityle_emoryi_47_punta_san_jose
+|                              |  |     |  |  |  +--| (100)
+|                              |  |     |  |  |     +**Perityle_yellow_87
+|                              |  |     |  +**| (43)
+|                              |  |     |     |  +--Perityle_turneri_33_Mexiquilla
+|                              |  |     |     +--| (71)
+|                              |  |     |        +----Perityle_vigilans_109
+|                              |  |  +--| (56)
+|                              |  |  |  |     +---Perityle_canescens_77
+|                              |  |  |  |  +--| (70)
+|                              |  |  |  |  |  |     +--Perityle_feddemae_99
+|                              |  |  |  |  |  |  +--| (100)
+|                              |  |  |  |  |  |  |  +----------Perityle_jaliscana_203
+|                              |  |  |  |  |  +--| (99)
+|                              |  |  |  |  |     +--Perityle_gamon_221
+|                              |  |  |  +--| (52)
+|                              |  |  |     |     +----Perityle_lineariloba_78
+|                              |  |  |     |  +--| (88)
+|                              |  |  |     |  |  +---------------Perityle_incana_3_ucla_to_laph
+|                              |  |  |     +--| (84)
+|                              |  |  |        +---Perityle_microglossa_73_tecolote
+|                              |  +--| (98)
+|                              |     |       +--Perityle_coronopifolia_28_patagonia
+|                              |     |  +----| (100)
+|                              |     |  |    +--Perityle_pseudociliata_140
+|                              |     +--| (78)
+|                              |        +--Perityle_montana_80
+|                           +--| (98)
+|                           |  +------Perityle_crassifolia_70_ventanas
+|                        +--| (98)
+|                        |  +-------------Helianthus_annuus_SRR9119062
+|               +--------| (100)
+|               |        +----------------------------------Conoclinium_coelestinum_SRR9119114
+|          +----| (67)
+|          |    +----------Galeana_pratensis_104_mex
+|       +--| (71)
+|       |  |                +-------------------------Eutetras_palmeri_63
+|       |  |             +--| (92)
+|       |  |             |  +---------Eutrochium_fistulosum_SRR9119106
+|       |  |         +---| (84)
+|       |  |         |   +--------------Perityle_vandevenderi_117_sierra_cucurpe
+|       |  |     +---| (81)
+|       |  |     |   +--------------------Perityle_rosei_jalisco_223
+|       |  |  +--| (56)
+|       |  |  |  |       +-----------Perityle_cuneata_4
+|       |  |  |  |    +--| (92)
+|       |  |  |  |    |  +-----Perityle_microglossa_83_isla_venados
+|       |  |  |  +----| (98)
+|       |  |  |       +--Perityle_hofmeisteria_4_nombre_de_dios
+|       |  +--| (71)
+|       |     |                         +--Perityle_aglossa_84_dead_horse
+|       |     |                      +--| (88)
+|       |     |                      |  |  +--Perityle_parryi_80_lower_window
+|       |     |                      |  +**| (85)
+|       |     |                      |     +--Perityle_vaseyi_ernst_209
+|       |     |                   +**| (48)
+|       |     |                   |  +--Perityle_lemmonii_85_hachita
+|       |     |                +**| (46)
+|       |     |                |  |              +--Perityle_ajoensis_204
+|       |     |                |  |           +**| (41)
+|       |     |                |  |           |  |  +--Perityle_cfvillosa_25_tin
+|       |     |                |  |           |  +**| (55)
+|       |     |                |  |           |     +--Perityle_megalocephala_29_tin_mountain
+|       |     |                |  |        +**| (32)
+|       |     |                |  |        |  +--Perityle_specuicola_41_negro_bill_canyon
+|       |     |                |  |     +**| (27)
+|       |     |                |  |     |  +--Perityle_intricata_59_Clark_mtns
+|       |     |                |  |  +--| (97)
+|       |     |                |  |  |  |  +--Perityle_congesta_202
+|       |     |                |  |  |  +**| (20)
+|       |     |                |  |  |     |     +--Perityle_inyoensis_9_pleasant
+|       |     |                |  |  |     |  +--| (95)
+|       |     |                |  |  |     |  |  +--Perityle_villosa_45_Hanuapah_cyn
+|       |     |                |  |  |     +--| (40)
+|       |     |                |  |  |        +--Perityle_megalocephala_19_meg_Echo
+|       |     |                |  +--| (98)
+|       |     |                |     +--Perityle_gracilis_11
+|       |     |             +--| (100)
+|       |     |             |  +--Perityle_lemmonii_colossal_cave_206
+|       |     |          +--| (64)
+|       |     |          |  +--Perityle_huecosensis_48
+|       |     |       +--| (38)
+|       |     |       |  |        +--Perityle_ambrosiifolia_67_green
+|       |     |       |  |     +--| (86)
+|       |     |       |  |     |  |     +--Perityle_dissecta_201
+|       |     |       |  |     |  |  +--| (91)
+|       |     |       |  |     |  |  |  +--Perityle_staurophylla_42
+|       |     |       |  |     |  +**| (86)
+|       |     |       |  |     |     |  +--Perityle_fosteri_93
+|       |     |       |  |     |     +--| (100)
+|       |     |       |  |     |        +--Perityle_rupestris_30_albiflora_chisos
+|       |     |       |  |  +--| (85)
+|       |     |       |  |  |  |        +--Perityle_angustifolia_13_Eagle_creek
+|       |     |       |  |  |  |     +--| (98)
+|       |     |       |  |  |  |     |  +--Perityle_lindheimeri_34
+|       |     |       |  |  |  |  +--| (87)
+|       |     |       |  |  |  |  |  |  +--Perityle_cernua_84
+|       |     |       |  |  |  |  |  +**| (72)
+|       |     |       |  |  |  |  |     |  +**Perityle_stansburyi_42_rock_spring
+|       |     |       |  |  |  |  |     +--| (100)
+|       |     |       |  |  |  |  |        +--Perityle_tenella_86_Beaver_dam
+|       |     |       |  |  |  +--| (86)
+|       |     |       |  |  |     |           +--Perityle_coahuilensis_24
+|       |     |       |  |  |     |        +**| (96)
+|       |     |       |  |  |     |        |  +--Perityle_saxicola_224
+|       |     |       |  |  |     |     +--| (99)
+|       |     |       |  |  |     |     |  +--Perityle_gilensis_salensis_225
+|       |     |       |  |  |     |  +--| (100)
+|       |     |       |  |  |     |  |  +--Perityle_lemmonii_12
+|       |     |       |  |  |     +--| (99)
+|       |     |       |  |  |        +--Perityle_gilensis_22_Superstition
+|       |     |       |  +--| (85)
+|       |     |       |     +--Perityle_bisetosa_9
+|       |     |    +--| (59)
+|       |     |    |  |           +------Perityle_castillonii_96
+|       |     |    |  |        +--| (81)
+|       |     |    |  |        |  +--Perityle_lobata_119_mesa_tinajas
+|       |     |    |  |     +--| (57)
+|       |     |    |  |     |  +--Perityle_cinerea_113_Powell1310
+|       |     |    |  |  +--| (60)
+|       |     |    |  |  |  +--Perityle_cochisensis_44_cave_creek
+|       |     |    |  +--| (59)
+|       |     |    |     |  +--Perityle_cordifolia_68_tecolote
+|       |     |    |     +--| (100)
+|       |     |    |        +--Perityle_lloydii_79
+|       |     +----| (90)
+|       |          |     +--Perityle_cordifolia_27
+|       |          |  +**| (93)
+|       |          |  |  +--Perityle_leptoglossa_20_rancho_las_laminas
+|       |          +--| (100)
+|       |             +--Perityle_palmeri_21_rancho_nuevo
++-------| (100)
+|       |        +---------------------------Perityle_californica_76_positas
+|       |     +--| (90)
+|       |     |  +--Perityle_cuneata_34_cuneata_San_antonio
+|       |  +--| (31)
+|       |  |  |   +--Perityle_crassifolia_74_playa_balandra
+|       |  |  +---| (100)
+|       |  |      +--Perityle_socorrensis_san_benedicto_213
+|       +--| (39)
+|          |     +--Perityle_glaucescens_94
+|          |  +--| (100)
+|          |  |  +------Perityle_harkerae_31
+|          +--| (90)
+|             +----Perityle_reinana_7_mazatan
+|
+|  +**Lycapsus_tenuifolius_17
++**| (97)
+   +**Perityle_discoidea_81
+
+Tree in newick format:
+
+(Amauria_brandeegeana_62:0.0069936068,((((((((Amauria_carterae_99_mesa:0.0349453562,(Amauria_rotundifolia_SRR9119150:0.0554548924,Eutetras_pringlei_149_quer:0.0215552904)54:0.0052534327)47:0.0056334929,((((Pericome_caudata_50_silver:0.0409964769,(Perityle_rosei_74:0.0077592230,Perityle_trichodonta_bolanos_208:0.0084365497)100:0.0546875921)89:0.0062547534,(((Perityle_batopilensis_97:0.0021614831,Perityle_gentryi_8_san_francisco:0.0182057381)100:0.0113447593,(Perityle_emoryi_47_punta_san_jose:0.0000010000,Perityle_yellow_87:0.0000010000)100:0.0222349674)98:0.0120955579,(Perityle_turneri_33_Mexiquilla:0.0376379795,Perityle_vigilans_109:0.0511163329)71:0.0044466248)43:0.0000027542)36:0.0024780364,((Perityle_canescens_77:0.0456880152,((Perityle_feddemae_99:0.0104449901,Perityle_jaliscana_203:0.1145308664)100:0.0114675967,Perityle_gamon_221:0.0285759629)99:0.0178444763)70:0.0065482395,((Perityle_lineariloba_78:0.0510351386,Perityle_incana_3_ucla_to_laph:0.1578994778)88:0.0269166324,Perityle_microglossa_73_tecolote:0.0483855450)84:0.0173746438)52:0.0053571917)56:0.0121245287,((Perityle_coronopifolia_28_patagonia:0.0009993206,Perityle_pseudociliata_140:0.0059260240)100:0.0494833498,Perityle_montana_80:0.0309705634)78:0.0055482524)98:0.0242810439)47:0.0131745582,Perityle_crassifolia_70_ventanas:0.0688433682)98:0.0225961495,Helianthus_annuus_SRR9119062:0.1445964383)98:0.0264470779,Conoclinium_coelestinum_SRR9119114:0.3503314658)100:0.0887051571,Galeana_pratensis_104_mex:0.1110634170)67:0.0584006540,(((((Eutetras_palmeri_63:0.2576114720,Eutrochium_fistulosum_SRR9119106:0.1012732104)92:0.0386194189,Perityle_vandevenderi_117_sierra_cucurpe:0.1486429550)84:0.0470938348,Perityle_rosei_jalisco_223:0.2090271087)81:0.0429559708,((Perityle_cuneata_4:0.1207751299,Perityle_microglossa_83_isla_venados:0.0634813863)92:0.0207700055,Perityle_hofmeisteria_4_nombre_de_dios:0.0360580424)98:0.0569354693)56:0.0284103352,((((((((Perityle_aglossa_84_dead_horse:0.0053275412,(Perityle_parryi_80_lower_window:0.0056803469,Perityle_vaseyi_ernst_209:0.0044481802)85:0.0000010000)88:0.0009372338,Perityle_lemmonii_85_hachita:0.0073085637)48:0.0000032395,(((((Perityle_ajoensis_204:0.0032742055,(Perityle_cfvillosa_25_tin:0.0090952209,Perityle_megalocephala_29_tin_mountain:0.0191660959)55:0.0000020853)41:0.0000010000,Perityle_specuicola_41_negro_bill_canyon:0.0025587056)32:0.0000010000,Perityle_intricata_59_Clark_mtns:0.0057986306)27:0.0000024724,(Perityle_congesta_202:0.0034858163,((Perityle_inyoensis_9_pleasant:0.0052795410,Perityle_villosa_45_Hanuapah_cyn:0.0064749523)95:0.0012363130,Perityle_megalocephala_19_meg_Echo:0.0058398041)40:0.0008505225)20:0.0000025715)97:0.0015042047,Perityle_gracilis_11:0.0025249064)98:0.0007500091)46:0.0000024239,Perityle_lemmonii_colossal_cave_206:0.0041423702)100:0.0198954183,Perityle_huecosensis_48:0.0160814469)64:0.0047743539,(((Perityle_ambrosiifolia_67_green:0.0301911666,((Perityle_dissecta_201:0.0119014802,Perityle_staurophylla_42:0.0096746270)91:0.0025833057,(Perityle_fosteri_93:0.0098287869,Perityle_rupestris_30_albiflora_chisos:0.0068350374)100:0.0040749671)86:0.0000023683)86:0.0027705282,(((Perityle_angustifolia_13_Eagle_creek:0.0049597409,Perityle_lindheimeri_34:0.0055777802)98:0.0058079738,(Perityle_cernua_84:0.0062137675,(Perityle_stansburyi_42_rock_spring:0.0000023007,Perityle_tenella_86_Beaver_dam:0.0045062963)100:0.0130851250)72:0.0000029885)87:0.0011082943,((((Perityle_coahuilensis_24:0.0021375486,Perityle_saxicola_224:0.0008072486)96:0.0000010000,Perityle_gilensis_salensis_225:0.0020646883)99:0.0026407648,Perityle_lemmonii_12:0.0021659093)100:0.0106335543,Perityle_gilensis_22_Superstition:0.0137068467)99:0.0068480130)86:0.0022360693)85:0.0036424571,Perityle_bisetosa_9:0.0096674367)85:0.0034101313)38:0.0012716535,((((Perityle_castillonii_96:0.0752512004,Perityle_lobata_119_mesa_tinajas:0.0199689721)81:0.0247936045,Perityle_cinerea_113_Powell1310:0.0073423226)57:0.0071965032,Perityle_cochisensis_44_cave_creek:0.0117951583)60:0.0046829388,(Perityle_cordifolia_68_tecolote:0.0139532382,Perityle_lloydii_79:0.0033832921)100:0.0310693458)59:0.0044893858)59:0.0044295781,((Perityle_cordifolia_27:0.0040500620,Perityle_leptoglossa_20_rancho_las_laminas:0.0051628265)93:0.0000020613,Perityle_palmeri_21_rancho_nuevo:0.0054499703)100:0.0355989097)90:0.0517753163)71:0.0223072771)71:0.0075464948,(((Perityle_californica_76_positas:0.2740339394,Perityle_cuneata_34_cuneata_San_antonio:0.0181828401)90:0.0313787162,(Perityle_crassifolia_74_playa_balandra:0.0224933535,Perityle_socorrensis_san_benedicto_213:0.0054192841)100:0.0456847824)31:0.0083686406,((Perityle_glaucescens_94:0.0215008248,Perityle_harkerae_31:0.0693282341)100:0.0352332922,Perityle_reinana_7_mazatan:0.0509239264)90:0.0060864134)39:0.0080665407)100:0.0803232466,(Lycapsus_tenuifolius_17:0.0000010000,Perityle_discoidea_81:0.0000010000)97:0.0003477606);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -18926.079050
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Amauria_brandeegeana_62
+|
+|                                          +--Amauria_carterae_99_mesa
+|                                       +--| (47)
+|                                       |  |  +----Amauria_rotundifolia_SRR9119150
+|                                       |  +--| (54)
+|                                       |     +--Eutetras_pringlei_149_quer
+|                                    +--| (47)
+|                                    |  |           +---Pericome_caudata_50_silver
+|                                    |  |        +--| (89)
+|                                    |  |        |  |    +--Perityle_rosei_74
+|                                    |  |        |  +----| (100)
+|                                    |  |        |       +--Perityle_trichodonta_bolanos_208
+|                                    |  |     +--| (36)
+|                                    |  |     |  |        +--Perityle_batopilensis_97
+|                                    |  |     |  |     +--| (100)
+|                                    |  |     |  |     |  +--Perityle_gentryi_8_san_francisco
+|                                    |  |     |  |  +--| (98)
+|                                    |  |     |  |  |  |  +--Perityle_emoryi_47_punta_san_jose
+|                                    |  |     |  |  |  +--| (100)
+|                                    |  |     |  |  |     +--Perityle_yellow_87
+|                                    |  |     |  +--| (43)
+|                                    |  |     |     |  +--Perityle_turneri_33_Mexiquilla
+|                                    |  |     |     +--| (71)
+|                                    |  |     |        +----Perityle_vigilans_109
+|                                    |  |  +--| (56)
+|                                    |  |  |  |     +---Perityle_canescens_77
+|                                    |  |  |  |  +--| (70)
+|                                    |  |  |  |  |  |     +--Perityle_feddemae_99
+|                                    |  |  |  |  |  |  +--| (100)
+|                                    |  |  |  |  |  |  |  +----------Perityle_jaliscana_203
+|                                    |  |  |  |  |  +--| (99)
+|                                    |  |  |  |  |     +--Perityle_gamon_221
+|                                    |  |  |  +--| (52)
+|                                    |  |  |     |     +----Perityle_lineariloba_78
+|                                    |  |  |     |  +--| (88)
+|                                    |  |  |     |  |  +--------------Perityle_incana_3_ucla_to_laph
+|                                    |  |  |     +--| (84)
+|                                    |  |  |        +---Perityle_microglossa_73_tecolote
+|                                    |  +--| (98)
+|                                    |     |      +--Perityle_coronopifolia_28_patagonia
+|                                    |     |  +---| (100)
+|                                    |     |  |   +--Perityle_pseudociliata_140
+|                                    |     +--| (78)
+|                                    |        +--Perityle_montana_80
+|                                 +--| (98)
+|                                 |  +-----Perityle_crassifolia_70_ventanas
+|                              +--| (98)
+|                              |  +-------------Helianthus_annuus_SRR9119062
+|                     +--------| (100)
+|                     |        +---------------------------------Conoclinium_coelestinum_SRR9119114
+|                +----| (67)
+|                |    +---------Galeana_pratensis_104_mex
+|             +--| (71)
+|             |  |                +------------------------Eutetras_palmeri_63
+|             |  |             +--| (92)
+|             |  |             |  +---------Eutrochium_fistulosum_SRR9119106
+|             |  |         +---| (84)
+|             |  |         |   +-------------Perityle_vandevenderi_117_sierra_cucurpe
+|             |  |     +---| (81)
+|             |  |     |   +-------------------Perityle_rosei_jalisco_223
+|             |  |  +--| (56)
+|             |  |  |  |       +----------Perityle_cuneata_4
+|             |  |  |  |    +--| (92)
+|             |  |  |  |    |  +-----Perityle_microglossa_83_isla_venados
+|             |  |  |  +----| (98)
+|             |  |  |       +--Perityle_hofmeisteria_4_nombre_de_dios
+|             |  +--| (71)
+|             |     |                         +--Perityle_aglossa_84_dead_horse
+|             |     |                      +--| (88)
+|             |     |                      |  |  +--Perityle_parryi_80_lower_window
+|             |     |                      |  +--| (85)
+|             |     |                      |     +--Perityle_vaseyi_ernst_209
+|             |     |                   +--| (48)
+|             |     |                   |  +--Perityle_lemmonii_85_hachita
+|             |     |                +--| (46)
+|             |     |                |  |                 +--Perityle_ajoensis_204
+|             |     |                |  |              +--| (41)
+|             |     |                |  |              |  |  +--Perityle_cfvillosa_25_tin
+|             |     |                |  |              |  +--| (55)
+|             |     |                |  |              |     +--Perityle_megalocephala_29_tin_mountain
+|             |     |                |  |           +--| (32)
+|             |     |                |  |           |  +--Perityle_specuicola_41_negro_bill_canyon
+|             |     |                |  |        +--| (27)
+|             |     |                |  |        |  +--Perityle_intricata_59_Clark_mtns
+|             |     |                |  |     +--| (22)
+|             |     |                |  |     |  |     +--Perityle_inyoensis_9_pleasant
+|             |     |                |  |     |  |  +--| (95)
+|             |     |                |  |     |  |  |  +--Perityle_villosa_45_Hanuapah_cyn
+|             |     |                |  |     |  +--| (40)
+|             |     |                |  |     |     +--Perityle_megalocephala_19_meg_Echo
+|             |     |                |  |  +--| (97)
+|             |     |                |  |  |  +--Perityle_congesta_202
+|             |     |                |  +--| (98)
+|             |     |                |     +--Perityle_gracilis_11
+|             |     |             +--| (100)
+|             |     |             |  +--Perityle_lemmonii_colossal_cave_206
+|             |     |          +--| (64)
+|             |     |          |  +--Perityle_huecosensis_48
+|             |     |       +--| (38)
+|             |     |       |  |        +--Perityle_ambrosiifolia_67_green
+|             |     |       |  |     +--| (86)
+|             |     |       |  |     |  |     +--Perityle_dissecta_201
+|             |     |       |  |     |  |  +--| (91)
+|             |     |       |  |     |  |  |  +--Perityle_staurophylla_42
+|             |     |       |  |     |  +--| (86)
+|             |     |       |  |     |     |  +--Perityle_fosteri_93
+|             |     |       |  |     |     +--| (100)
+|             |     |       |  |     |        +--Perityle_rupestris_30_albiflora_chisos
+|             |     |       |  |  +--| (85)
+|             |     |       |  |  |  |        +--Perityle_angustifolia_13_Eagle_creek
+|             |     |       |  |  |  |     +--| (98)
+|             |     |       |  |  |  |     |  +--Perityle_lindheimeri_34
+|             |     |       |  |  |  |  +--| (87)
+|             |     |       |  |  |  |  |  |  +--Perityle_cernua_84
+|             |     |       |  |  |  |  |  +--| (72)
+|             |     |       |  |  |  |  |     |  +--Perityle_stansburyi_42_rock_spring
+|             |     |       |  |  |  |  |     +--| (100)
+|             |     |       |  |  |  |  |        +--Perityle_tenella_86_Beaver_dam
+|             |     |       |  |  |  +--| (86)
+|             |     |       |  |  |     |           +--Perityle_coahuilensis_24
+|             |     |       |  |  |     |        +--| (96)
+|             |     |       |  |  |     |        |  +--Perityle_saxicola_224
+|             |     |       |  |  |     |     +--| (99)
+|             |     |       |  |  |     |     |  +--Perityle_gilensis_salensis_225
+|             |     |       |  |  |     |  +--| (100)
+|             |     |       |  |  |     |  |  +--Perityle_lemmonii_12
+|             |     |       |  |  |     +--| (99)
+|             |     |       |  |  |        +--Perityle_gilensis_22_Superstition
+|             |     |       |  +--| (85)
+|             |     |       |     +--Perityle_bisetosa_9
+|             |     |    +--| (59)
+|             |     |    |  |           +------Perityle_castillonii_96
+|             |     |    |  |        +--| (81)
+|             |     |    |  |        |  +--Perityle_lobata_119_mesa_tinajas
+|             |     |    |  |     +--| (57)
+|             |     |    |  |     |  +--Perityle_cinerea_113_Powell1310
+|             |     |    |  |  +--| (60)
+|             |     |    |  |  |  +--Perityle_cochisensis_44_cave_creek
+|             |     |    |  +--| (59)
+|             |     |    |     |  +--Perityle_cordifolia_68_tecolote
+|             |     |    |     +--| (100)
+|             |     |    |        +--Perityle_lloydii_79
+|             |     +----| (90)
+|             |          |     +--Perityle_cordifolia_27
+|             |          |  +--| (93)
+|             |          |  |  +--Perityle_leptoglossa_20_rancho_las_laminas
+|             |          +--| (100)
+|             |             +--Perityle_palmeri_21_rancho_nuevo
+|          +--| (51)
+|          |  |   +--Perityle_crassifolia_74_playa_balandra
+|          |  +---| (100)
+|          |      +--Perityle_socorrensis_san_benedicto_213
+|       +--| (31)
+|       |  |  +--------------------------Perityle_californica_76_positas
+|       |  +--| (90)
+|       |     +--Perityle_cuneata_34_cuneata_San_antonio
++-------| (100)
+|       |     +--Perityle_glaucescens_94
+|       |  +--| (100)
+|       |  |  +-----Perityle_harkerae_31
+|       +--| (90)
+|          +----Perityle_reinana_7_mazatan
+|
+|  +--Lycapsus_tenuifolius_17
++--| (97)
+   +--Perityle_discoidea_81
+
+
+Consensus tree in newick format: 
+
+(Amauria_brandeegeana_62:0.0060065315,((((((((((Amauria_carterae_99_mesa:0.0349425993,(Amauria_rotundifolia_SRR9119150:0.0559701634,Eutetras_pringlei_149_quer:0.0215415101)54:0.0053024293)47:0.0057061784,((((Pericome_caudata_50_silver:0.0409951994,(Perityle_rosei_74:0.0077597352,Perityle_trichodonta_bolanos_208:0.0084355553)100:0.0546857355)89:0.0062555196,(((Perityle_batopilensis_97:0.0021621623,Perityle_gentryi_8_san_francisco:0.0182069131)100:0.0113461652,(Perityle_emoryi_47_punta_san_jose:0.0000027312,Perityle_yellow_87:0.0000027312)100:0.0221946688)98:0.0120760157,(Perityle_turneri_33_Mexiquilla:0.0376444237,Perityle_vigilans_109:0.0511153590)71:0.0044477128)43:0.0000020571)36:0.0024727030,((Perityle_canescens_77:0.0456893284,((Perityle_feddemae_99:0.0104457174,Perityle_jaliscana_203:0.1145328772)100:0.0114683796,Perityle_gamon_221:0.0285773347)99:0.0178444215)70:0.0065485616,((Perityle_lineariloba_78:0.0510324143,Perityle_incana_3_ucla_to_laph:0.1579469224)88:0.0269269630,Perityle_microglossa_73_tecolote:0.0483827244)84:0.0173846255)52:0.0053625859)56:0.0120189134,((Perityle_coronopifolia_28_patagonia:0.0009969219,Perityle_pseudociliata_140:0.0059251059)100:0.0495712804,Perityle_montana_80:0.0309796634)78:0.0055676453)98:0.0238262443)47:0.0131021919,Perityle_crassifolia_70_ventanas:0.0689364120)98:0.0220326100,Helianthus_annuus_SRR9119062:0.1448107254)98:0.0268127761,Conoclinium_coelestinum_SRR9119114:0.3502065251)100:0.0967846411,Galeana_pratensis_104_mex:0.1047011096)67:0.0504555637,(((((Eutetras_palmeri_63:0.2577152351,Eutrochium_fistulosum_SRR9119106:0.1009731972)92:0.0385313733,Perityle_vandevenderi_117_sierra_cucurpe:0.1506395523)84:0.0469730610,Perityle_rosei_jalisco_223:0.2073662485)81:0.0421275590,((Perityle_cuneata_4:0.1198042767,Perityle_microglossa_83_isla_venados:0.0634051437)92:0.0200940500,Perityle_hofmeisteria_4_nombre_de_dios:0.0359325081)98:0.0583514648)56:0.0271798635,((((((((Perityle_aglossa_84_dead_horse:0.0053269276,(Perityle_parryi_80_lower_window:0.0056868375,Perityle_vaseyi_ernst_209:0.0044487998)85:0.0000020907)88:0.0007211727,Perityle_lemmonii_85_hachita:0.0073071380)48:0.0002201131,((((((Perityle_ajoensis_204:0.0032733260,(Perityle_cfvillosa_25_tin:0.0090948050,Perityle_megalocephala_29_tin_mountain:0.0191641621)55:0.0000028623)41:0.0000021852,Perityle_specuicola_41_negro_bill_canyon:0.0025578000)32:0.0000021830,Perityle_intricata_59_Clark_mtns:0.0057992110)27:0.0000023084,((Perityle_inyoensis_9_pleasant:0.0052638750,Perityle_villosa_45_Hanuapah_cyn:0.0064736969)95:0.0012327521,Perityle_megalocephala_19_meg_Echo:0.0057891636)40:0.0009102433)22:0.0000024147,Perityle_congesta_202:0.0034866540)97:0.0015058489,Perityle_gracilis_11:0.0025255955)98:0.0007510830)46:0.0000022088,Perityle_lemmonii_colossal_cave_206:0.0041424107)100:0.0200753100,Perityle_huecosensis_48:0.0160956574)64:0.0041808227,(((Perityle_ambrosiifolia_67_green:0.0301948071,((Perityle_dissecta_201:0.0119010626,Perityle_staurophylla_42:0.0096716059)91:0.0025819930,(Perityle_fosteri_93:0.0098279837,Perityle_rupestris_30_albiflora_chisos:0.0068435400)100:0.0040808274)86:0.0000020872)86:0.0027748224,(((Perityle_angustifolia_13_Eagle_creek:0.0049597628,Perityle_lindheimeri_34:0.0055701039)98:0.0058196716,(Perityle_cernua_84:0.0062134072,(Perityle_stansburyi_42_rock_spring:0.0000027383,Perityle_tenella_86_Beaver_dam:0.0045060932)100:0.0130841946)72:0.0000027312)87:0.0011083747,((((Perityle_coahuilensis_24:0.0021329359,Perityle_saxicola_224:0.0008076169)96:0.0000025308,Perityle_gilensis_salensis_225:0.0020648130)99:0.0026318833,Perityle_lemmonii_12:0.0021668647)100:0.0106022989,Perityle_gilensis_22_Superstition:0.0137051798)99:0.0068098343)86:0.0022323532)85:0.0035727596,Perityle_bisetosa_9:0.0096569124)85:0.0039495682)38:0.0012586254,((((Perityle_castillonii_96:0.0751141267,Perityle_lobata_119_mesa_tinajas:0.0199729609)81:0.0249822248,Perityle_cinerea_113_Powell1310:0.0073592214)57:0.0070880504,Perityle_cochisensis_44_cave_creek:0.0119995043)60:0.0048000655,(Perityle_cordifolia_68_tecolote:0.0139458024,Perityle_lloydii_79:0.0033826299)100:0.0310508498)59:0.0046003286)59:0.0045262558,((Perityle_cordifolia_27:0.0040410166,Perityle_leptoglossa_20_rancho_las_laminas:0.0051634382)93:0.0000020184,Perityle_palmeri_21_rancho_nuevo:0.0054500064)100:0.0355621006)90:0.0550273422)71:0.0187274925)71:0.0067760648,(Perityle_crassifolia_74_playa_balandra:0.0224517968,Perityle_socorrensis_san_benedicto_213:0.0071023857)100:0.0405056830)51:0.0099205933,(Perityle_californica_76_positas:0.2747942329,Perityle_cuneata_34_cuneata_San_antonio:0.0199126127)90:0.0351608529)31:0.0035763074,((Perityle_glaucescens_94:0.0218878373,Perityle_harkerae_31:0.0690024188)100:0.0349618742,Perityle_reinana_7_mazatan:0.0511197724)90:0.0057942077)100:0.0861306698,(Lycapsus_tenuifolius_17:0.0000027383,Perityle_discoidea_81:0.0000027312)97:0.0009892859);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t astrict_data/At5g15610_supercontig.fasta.treefile -m "GTR{0.7947,2.15637,0.801383,0.967722,2.49214}+F{0.284592,0.179061,0.173742,0.362605}" --length 2252
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s astrict_data/At5g15610_supercontig.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s astrict_data/At5g15610_supercontig.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed May 22 21:41:33 2024
+Total CPU time used: 4730.109645 seconds (1h:18m:50s)
+Total wall-clock time used: 201.7723173 seconds (0h:3m:21s)
+
