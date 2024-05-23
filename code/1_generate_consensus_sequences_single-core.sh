@@ -155,7 +155,7 @@ do
 		mkdir -p $OUTDIR/$SAMPLE/contigs
 		cp $PIPERDIR/$SAMPLE/*/*/sequences/FNA/*.FNA $OUTDIR/$SAMPLE/contigs/ 2> /dev/null
 
-		 adding gene name into the fasta files ">sample-gene"
+		# adding gene name into the fasta files ">sample-gene"
 		for i in $OUTDIR/$SAMPLE/contigs/*.FNA
 		do
 			FILE=${i/*\/contigs\//}
